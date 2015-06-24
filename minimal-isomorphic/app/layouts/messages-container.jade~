@@ -1,5 +1,0 @@
-extends ./layout
-
-block content
-    #messages-container.messages-container!= messages
-    #messages-tools.messages-tools!= tools
