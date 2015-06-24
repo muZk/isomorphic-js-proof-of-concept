@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Isomorphic Example
+        link(rel='stylesheet', type='text/css', href='/styles.css')
+    body
+        .container
+            h1 Anonymous Chat
+            .row
+                .col-md-9
+                    block content
+                .col-md-3
+        script(type='text/javascript', src='/socket.io/socket.io.js')
+        script(type='text/javascript', src='/application.js')
